@@ -1,0 +1,15 @@
+.option {
+    background-color: #8bcaf9;
+    width: 70%;
+    margin: auto;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.option:hover, .option.selected {
+    background-color: #3474a3;
+    color: #ffffff;
+}
