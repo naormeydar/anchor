@@ -44,13 +44,14 @@ const Quiz = () => {
   const onSubmit = () => {
     onNext();
     setShowScore(true);
-    setAnswers(Array(questions.length).fill(null));
   }
 
   const onRestart = () => {
+    setSelectedOption(null);
     setCurrentQuestionIndex(0);
     setScore(0);
     setShowScore(false);
+    setAnswers(Array(questions.length).fill(null));
   }
 
   return (
